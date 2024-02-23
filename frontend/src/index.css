@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --secondary-color: #294b6a;
+  --primary-color: #ffffff;
+  --text-primary-color: #000000;
+  --text-secondary-color: #ffffff;
+
+  --first-color: #28272d;
+  --second-color: #1f1e24;
+  --third-color: #428fdc;
+  --fourth-color: #4f9deb;
+}
+
+[data-theme="dark"] {
+  --secondary-color: #ffffff;
+  --primary-color: #192734;
+  --text-primary-color: #ececef;
+  --text-secondary-color: #000000;
+
+  --first-color: #28272d;
+  --second-color: #1f1e24;
+  --third-color: #428fdc;
+  --fourth-color: #4f9deb;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}
