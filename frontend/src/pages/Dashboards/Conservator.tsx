@@ -55,6 +55,7 @@ const Conservator = () => {
                 roomNumber={item.roomNumber}
                 faultDescription={item.faultDescription}
                 faultID={item.faultID}
+                getUndoneFaults={GetUndoneFaults}
               />
             ))}
         </section>
