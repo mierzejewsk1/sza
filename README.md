@@ -4,4 +4,4 @@ Aplikacja napisana z wykorzystaniem React.js, Tailwind, Node.js z Express oraz M
 
 ## Wygląd strony głównej mieszkańca
 
-![Screenshot of inhabitant dashboard](./src/assets/images/4.png)
+![Screenshot of inhabitant dashboard](./frontend/src/assets/images/4.png)
