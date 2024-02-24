@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <div className="relative transition flex flex-col w-full">
       <div
-        className={`flex justify-center items-center w-full h-10 lg:px-10 text-sm bg-bkg1 text-txt1`}
+        className={`flex justify-center items-center w-full h-10 lg:px-10 text-sm bg-second text-white`}
       >
         <p>Skorzystaj z zimowych promocji na nasze oprogramowanie!</p>
       </div>
